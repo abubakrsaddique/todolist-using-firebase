@@ -47,12 +47,12 @@ export default function Welcome() {
 
   const handleRegister = () => {
     if (registerInformation.email !== registerInformation.confirmEmail) {
-      alert("Please confirm that email are the same");
+      alert("Please confirm that email is same");
       return;
     } else if (
       registerInformation.password !== registerInformation.confirmPassword
     ) {
-      alert("Please confirm that password are the same");
+      alert("Please confirm that password is same");
       return;
     }
     createUserWithEmailAndPassword(
@@ -68,7 +68,6 @@ export default function Welcome() {
 
   return (
     <div className="welcome">
-    {/* <img src={TodoSVG} className="todo-svg" /> */}
       <h1>Todo-List</h1>
       <div className="login-register-container">
         {isRegistering ? (

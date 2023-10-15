@@ -50,7 +50,7 @@ export default function Homepage() {
 
   // add
   const writeToDatabase = () => {
-    const uidd = uuidv4(); // Generate a unique ID
+    const uidd = uuidv4(); 
     set(ref(db, `/${auth.currentUser.uid}/${uidd}`), {
       todo: todo,
       uidd: uidd
