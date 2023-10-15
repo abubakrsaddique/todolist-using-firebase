@@ -9,10 +9,11 @@
 }
 
 .welcome > h1 {
-  font-family: "Changa One";
+  font-family: fantasy;
   font-weight: normal;
   font-size: 115px;
-  left: 373px;
+  left: 400px;
+
   top: 20px;
   position: absolute;
   color: white;
